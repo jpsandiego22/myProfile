@@ -1,6 +1,7 @@
 {
   "name": "myprofile",
-  "private": true,
+  "homepage": "https://jpsandiego22.github.io/myProfile/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
