@@ -1,14 +1,14 @@
 {
   "name": "myprofile",
   "homepage": "https://jpsandiego22.github.io/myProfile/",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "npm run dev",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
