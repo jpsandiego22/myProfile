@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Consolas';
+    src: local('Consolas'), url('path/to/consolas.woff2') format('woff2');
+  }
+
+  .consolas {
+    font-family: 'Consolas', monospace;
+  }
+
+  img{
+   width: 75px;
+   height: 75px;  
+  }
+  .i {
+    font-style: italic;
+  }
+
+  hr.line1 {
+    border: 1px solid white;
+    /* border-radius: 5px; */
+  }
+  .line2 {
+    border-bottom: 1px solid white;
+    /* border-radius: 5px; */
+  }
+
+  
+  .background {
+    background-image: url("react_logo.jpg");
+    background-size: 15% 15%;
+    background-repeat: repeat;
+    opacity: 0.8;
+
+  }
