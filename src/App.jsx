@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <div className="container shadow-lg rounded mt-5 mb-5 p-5 bg-dark border text-white">
+    <div className="container shadow-lg rounded mt-5 mb-5 p-5 bg-dark border">
         <Header />
         <div className="row">
           <div className="col-md-8 mt-3">
