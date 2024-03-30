@@ -26,7 +26,7 @@
 
   
   .background {
-    background-image: url('react_logo.jpg');
+    background-image: url('/react_logo.jpg');
     background-size: 15% 15%;
     background-repeat: repeat;
     opacity: 0.8;
